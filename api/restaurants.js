@@ -1,6 +1,6 @@
 // api/restaurant.js
 import axios from 'axios';
-import cors from './cors';
+import cors from './cors.js';
 
 export default async function handler(req, res) {
   cors(req, res, async () => {
